@@ -6,17 +6,23 @@ With the help of DeepLearning.scala, regular programmers are able to build compl
 
 <img src="https://github.com/izhangzhihao/deeplearning-tutorial/blob/master/cover.jpeg" width="360">
 
-## NOTE: Please do NOT download this repo,because if you download this repo ,you will find the notebooks dir is empty. So ,please use git clone ,after that , use `git submodule init` & `git submodule update` to clone the notebooks(git submodule).
+### NOTE: Please do NOT download this repository; if you do, the notebooks directory will be empty. Please use submodules:
+
+```sh
+git clone
+git submodule init
+git submodule update
+```
+
 
 ### [Jupyter notebook installation](https://github.com/alexarchambault/jupyter-scala)
 
 ## Tutorial index
 
-### 1 - Getting Start
-- [getting start](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/GettingStarted.ipynb)
-- [how to debug](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/Debug.ipynb)
-- [softmax](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/SoftmaxLinearClassifier.ipynb)
-- [mini-batch gradient descent](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/MiniBatchGradientDescent.ipynb)
-- [two layer net](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/TwoLayerNet.ipynb)
+### 1 - Getting started
+- [Getting started](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/GettingStarted.ipynb)
+- [How to debug](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/Debug.ipynb)
+- [Softmax](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/SoftmaxLinearClassifier.ipynb)
+- [Mini-batch gradient descent](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/MiniBatchGradientDescent.ipynb)
+- [Two layers net](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/TwoLayerNet.ipynb)
 - [CNNs](https://github.com/thoughtworksinc/deeplearning.scala-website/blob/v1.0.0-doc/ipynbs/CNNs.ipynb)
-
